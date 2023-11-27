@@ -20,7 +20,7 @@ public class MainPageTest {
         Configuration.browserSize = "1280x800";
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
-
+//Yorum deneme *******
     @BeforeMethod
     public void setUp() {
         open("https://www.jetbrains.com/");
